@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BMI Calculator</title>
+
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <body class="bg-warning bg-gradient">
+
+    <!-- container -->
+    <div class="container">
+
+        <!-- heading -->
+        <h1 class="text-center mt-2">BMI Calculator</h1>
+
+        <!-- form -->
+        <form class="text-center mt-5" id="bmi-form">
+            <div class="mb-3">
+              <label for="Height" class="form-label fs-4 text">Height in cm</label>
+              <input type="number" class="form-control" id="Height" aria-describedby="heightHelp">
+            </div>
+            <div class="mb-3">
+              <label for="Weight" class="form-label fs-4 text">Weight in kg</label>
+              <input type="number" class="form-control" id="Weight">
+            </div>
+            <button type="submit" class="btn btn-primary fs-4 text">Calculate</button>
+            <button type="reset" class="btn btn-secondary fs-4 text ms-2">Reset</button>
+
+            <!-- result -->
+            <div id="result" class="mt-3 fs-4"></div>
+
+            <!-- guide -->
+            <div id="weight-guide" class="mt-5">
+              <h3 class="text-center">BMI Weight Guide</h3>
+              <p class="text-center">Underweight = Less than 18.5</p>
+              <p class="text-center">Normal Range = 18.5 to 24.9</p>
+              <p class="text-center">Overweight = Greater than 24.9</p>
+              <p class="text-center">Obesity = Greater than 30</p>
+            </div>
+        </form>
+
+    </div>
+     
+    <script src="script.js"></script>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
