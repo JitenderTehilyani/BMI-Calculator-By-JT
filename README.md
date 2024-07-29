@@ -34,6 +34,3 @@ This code creates a BMI calculator with HTML, Bootstrap, and JavaScript. The HTM
     <li>Clone or download the repository.</li>
     <li>Open <code>index.html</code> in your web browser.</li>
 </ul>
-
-<h2>License</h2>
-<p>This project is licensed under the MIT License.</p>
